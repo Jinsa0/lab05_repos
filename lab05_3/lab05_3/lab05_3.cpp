@@ -21,9 +21,9 @@ int main()
     cout << "n = ";  cin >> n;
 
     double dt = (tk - tp) / n;
-    cout << "---------------------------" << endl;
+    cout << "-------------------------" << endl;
     cout << "|" << setw(8) << "t" << " |" << setw(12) << "z" << " |" << endl;
-    cout << "---------------------------" << endl;
+    cout << "-------------------------" << endl;
 
     double t = tp;
     while (t <= tk + dt / 2.0)
@@ -33,7 +33,7 @@ int main()
             << setw(12) << setprecision(5) << fixed << z << " |" << endl;
         t += dt;
     }
-    cout << "---------------------------" << endl;
+    cout << "-------------------------" << endl;
     return 0;
 }
 
