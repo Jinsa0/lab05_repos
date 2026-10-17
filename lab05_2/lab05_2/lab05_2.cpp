@@ -9,12 +9,8 @@
 #include <cmath>
 using namespace std;
 
-// Обчислює суму ряду Тейлора для arctg x (x < -1) з точністю eps:
-// x – аргумент, n – кількість обчислених доданків, s – сума ряду
 void S(const double x, const double eps, int& n, double& s);
 
-// Обчислює наступний доданок ряду a за рекурентним співвідношенням:
-// x – аргумент, n – номер доданку, a – попередній доданок (стає поточним)
 void A(const double x, const int n, double& a);
 
 int main()
